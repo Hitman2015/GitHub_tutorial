@@ -4,6 +4,10 @@ package org.example;
 
 public class Task {
     public int factorial(int input) {
-        //write your solution here
+        int factorial = 1;
+        for(int i = 1; i <= input; i++) {
+            factorial *= i;
+        }
+        return factorial;
     }
 }
